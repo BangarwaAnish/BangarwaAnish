@@ -27,12 +27,18 @@ I enjoy solving complex engineering problems, automating repetitive workflows an
 
 ### Areas of Expertise
 
-- **Build & Release Engineering:** CI/CD pipelines, CI/CT platforms, build automation, release management, build optimisation and release governance.
-- **Embedded Linux:** Yocto Project, OpenEmbedded, BitBake, Linux, custom image builds, SDK generation and OTA delivery.
-- **DevOps & Cloud Infrastructure:** AWS, EKS, Kubernetes, Docker, Helm, Jenkins, GitLab CI, Ansible and infrastructure automation.
-- **DevSecOps & Software Quality:** SonarQube, OWASP Dependency-Check, Cppcheck, MISRA validation, Gitleaks, SBOM and vulnerability scanning.
-- **Programming & Development:** C, C++, Python, Java, Bash, Shell scripting, CMake and backend development.
-- **Monitoring & Observability:** Prometheus, Grafana, Elastic APM, Elasticsearch, Kibana, Loki and OpenTelemetry.
+- **Build & Release Engineering**
+  - CI/CD pipelines, CI/CT platforms, build automation, release management, build optimisation and release governance.
+- **Embedded Linux**
+  - Yocto Project, OpenEmbedded, BitBake, Linux, custom image builds, SDK generation and OTA delivery.
+- **DevOps & Cloud Infrastructure**
+  - AWS, EKS, Kubernetes, Docker, Helm, Jenkins, GitLab CI, Ansible and infrastructure automation.
+- **DevSecOps & Software Quality**
+  - SonarQube, OWASP Dependency-Check, Cppcheck, MISRA validation, Gitleaks, SBOM and vulnerability scanning.
+- **Programming & Development**
+  - C, C++, Python, Java, Bash, Shell scripting, CMake and backend development.
+- **Monitoring & Observability**
+  - Prometheus, Grafana, Elastic APM, Elasticsearch, Kibana, Loki and OpenTelemetry.
 
 ---
 
