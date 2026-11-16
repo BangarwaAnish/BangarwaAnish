@@ -1,88 +1,118 @@
-## Hi there, I'm Anish Choudhary
+# Hi, I'm Anish Choudhary 👋
 
-**Build & Release Engineer | DevSecOps | Yocto & Embedded Linux**
+### Build & Release Engineer | Embedded Linux | Platform Engineering | DevSecOps
 
-I'm a Build & Release and DevSecOps Engineer with 8+ years of experience working across automotive, embedded systems, smart metering and enterprise platforms.
+I build and automate the systems that make software delivery reliable, secure and repeatable, from Yocto images for automotive hardware to CI/CD platforms on AWS and Kubernetes.
 
-My work primarily focuses on engineering and improving software build and release ecosystems. Over the years, I've worked on CI/CD and CI/CT platforms, Yocto-based embedded Linux builds, build automation, release management and cloud infrastructure.
+For 8+ years I've worked across automotive, embedded systems, smart metering and enterprise platforms. My work sits where Embedded Linux, Build & Release Engineering, Platform Engineering and DevSecOps meet. I'm interested in the whole path software takes:
 
-I've also worked on AWS and Kubernetes platforms, DevSecOps integrations, software quality tools and observability solutions. Beyond build and release engineering, I enjoy working with C/C++, Python, Java and shell scripting, along with backend development and system-level engineering.
+**Build → Integrate → Test → Secure → Deploy → Monitor**
 
-I enjoy solving complex engineering problems, automating repetitive workflows and exploring how different technologies work together to deliver reliable software.
+📍 Jaipur, India · [Portfolio](https://releaseopswithanish.in/) · [Writing](https://releaseopswithanish.in/blog/index.html) · [LinkedIn](https://www.linkedin.com/in/rj18-anish-choudhary/)
 
-**Portfolio:** [releaseopswithanish.in](https://releaseopswithanish.in/)
+---
+
+### What I Work On
+
+**Embedded systems and build engineering.** I work on Yocto/OpenEmbedded and BitBake image builds, custom layers and recipes, SDK generation, cross-compilation with CMake, and OTA delivery. I also automate CI/CT for automotive software, where a build has to be reproducible and traceable months after release.
+
+**Platform and cloud engineering.** I set up AWS and EKS platforms with reusable CI/CD frameworks, deploy with Docker and Helm, and automate infrastructure with Ansible. Observability is built in: Prometheus, Grafana, Elastic APM and OpenTelemetry.
+
+**DevSecOps and software supply-chain security.** I build security gates that fail the build instead of filing a ticket: static analysis, dependency and container vulnerability scanning, SBOMs, and secret detection.
+
+These are one discipline to me. The release pipeline that builds a Yocto image needs the same versioning, quality gates and traceability as the one that deploys a service to Kubernetes.
+
+---
+
+### Technology Stack
+
+| Area | Used in professional work |
+|---|---|
+| **Build & Embedded** | Yocto Project, OpenEmbedded, BitBake, devtool, CMake, Linux, OTA packaging |
+| **CI/CD & Release** | Jenkins (pipelines, shared libraries), GitLab CI, GitHub Actions, Git, JFrog Artifactory |
+| **Cloud & Platform** | AWS, EKS, Kubernetes, Docker, Helm, Ansible, Istio |
+| **DevSecOps & Quality** | SonarQube, OWASP Dependency-Check, Cppcheck, MISRA validation, Gitleaks, SBOM, vulnerability scanning |
+| **Observability** | Prometheus, Grafana, Elastic APM, Elasticsearch, Kibana, Loki, OpenTelemetry |
+| **Languages** | C, Python, Java/Groovy, Bash / Shell |
+
+---
+
+### Featured Work
+
+**[Controller Clock](https://github.com/jenkinsci/controller-clock-plugin)**: a Jenkins plugin I wrote and maintain under the `jenkinsci` organisation, [published on the Jenkins plugin site](https://plugins.jenkins.io/controller-clock/). It shows the controller's time and timezone in the Jenkins UI and highlights when they differ from the user's browser timezone, so timestamps in build logs and schedules aren't misread.
+
+**[Engineering notes](https://releaseopswithanish.in/blog/index.html)**: practical write-ups on CI/CD, embedded Linux, cloud and security, drawn from real build and production problems. A few to start with:
+
+- [Reproducible Yocto builds in CI](https://releaseopswithanish.in/blog/reproducible-yocto-builds-in-ci.html)
+- [The BitBake task chain, in order](https://releaseopswithanish.in/blog/the-bitbake-task-chain.html)
+- [Security gates should fail the build, not file a ticket](https://releaseopswithanish.in/blog/security-gates-that-fail-the-build.html)
+- [Jenkins shared libraries, pinned and safe with strings](https://releaseopswithanish.in/blog/jenkins-shared-libraries-pinned-and-safe.html)
+- [Helm upgrades that roll themselves back](https://releaseopswithanish.in/blog/helm-upgrades-that-roll-back.html)
+- [Clearing node CVEs on EKS: replace the nodes, then read the PDBs](https://releaseopswithanish.in/blog/eks-node-group-cve-upgrade.html)
+
+---
+
+### Currently Building
+
+I'm starting three open-source labs that put this work in public. They aren't published yet; this section will link to each one when it is.
+
+- **yocto-build-lab**: reproducible Yocto/BitBake builds and CI for embedded Linux.
+- **secure-ci-blueprint**: a CI/CD pipeline with security gates (static analysis, SBOM, vulnerability and secret scanning).
+- **platform-observability-lab**: monitoring and observability for a Kubernetes platform.
+
+---
+
+### Engineering Impact
+
+Results from my professional roles:
+
+- **90% less manual effort** after building a CI/CT platform for automotive software delivery (Mobile Drive Technology).
+- **60% fewer integration and deployment errors** after establishing a CI/CD ecosystem (Sirius Embedded Software).
+- **75% fewer code defects** after integrating static analysis and security checks (Sirius Embedded Software).
+- Improved build and validation workflows for Yocto/OpenEmbedded-based embedded Linux platforms.
+- Set up greenfield AWS platforms with reusable CI/CD frameworks and centralised observability (PwC India).
 
 ---
 
 ### Professional Experience
 
-- **PwC India** – Senior Associate | Cloud DevSecOps
-- **Mobile Drive Technology** – Senior Engineer, Product Management | Automotive CI/CT & Embedded Linux
-- **Wipro** – Senior Engineer | Embedded Linux & Build Automation
-- **Landis+Gyr** – Senior Engineer, SCM | Smart Metering & DevOps
-- **Netradyne** – Build & Release Engineer | Automotive Software
-- **Sirius Embedded Software** – Member of Technical Staff | Embedded Systems & Release Engineering
-
----
-
-### Areas of Expertise
-
-- **Build & Release Engineering**
-  - CI/CD pipelines, CI/CT platforms, build automation, release management, build optimisation and release governance.
-- **Embedded Linux**
-  - Yocto Project, OpenEmbedded, BitBake, Linux, custom image builds, SDK generation and OTA delivery.
-- **DevOps & Cloud Infrastructure**
-  - AWS, EKS, Kubernetes, Docker, Helm, Jenkins, GitLab CI, Ansible and infrastructure automation.
-- **DevSecOps & Software Quality**
-  - SonarQube, OWASP Dependency-Check, Cppcheck, MISRA validation, Gitleaks, SBOM and vulnerability scanning.
-- **Programming & Development**
-  - C, C++, Python, Java, Bash, Shell scripting, CMake and backend development.
-- **Monitoring & Observability**
-  - Prometheus, Grafana, Elastic APM, Elasticsearch, Kibana, Loki and OpenTelemetry.
-
----
-
-### Some Work I'm Proud Of
-
-- Reduced manual effort by 90% through the development of a CI/CT platform for automotive software delivery.
-- Reduced integration and deployment errors by 60% by establishing a CI/CD ecosystem.
-- Reduced code defects by 75% through static analysis and security integrations.
-- Improved build and validation workflows for Yocto/OpenEmbedded-based embedded Linux platforms.
-- Worked on greenfield AWS platform setups with reusable CI/CD frameworks and centralised observability.
-
----
-
-### Technical Interests
-
-I'm particularly interested in embedded Linux, build systems, cloud-native infrastructure and software delivery engineering.
-
-Some areas I continue to explore:
-
-- Yocto build systems and Embedded Linux development.
-- Linux internals and system programming.
-- CI/CD architecture and build optimisation.
-- Kubernetes, AWS and cloud infrastructure.
-- DevSecOps and software supply-chain security.
-- Automation, scripting and distributed systems.
-
-I also enjoy experimenting with new tools, writing scripts to simplify everyday engineering tasks and learning from the open-source community.
+| Company | Role | Focus |
+|---|---|---|
+| **PwC India** | Senior Associate | Cloud DevSecOps |
+| **Mobile Drive Technology** | Senior Engineer, Product Management | Automotive CI/CT, Yocto & Embedded Linux |
+| **Wipro** | Senior Engineer | Yocto, Embedded Linux & Build Automation |
+| **Landis+Gyr** | Senior Engineer, SCM | Smart Metering & DevOps |
+| **Netradyne** | Build & Release Engineer | Automotive Software |
+| **Sirius Embedded Software** | Member of Technical Staff | Embedded Systems, Yocto & Release Engineering |
 
 ---
 
 ### Certifications & Education
 
-- **KCNA – Kubernetes and Cloud Native Associate**, The Linux Foundation
-- **B.Tech. – Electronic Instrumentation and Control System**, Rajasthan Technical University, Kota
+- **KCNA: Kubernetes and Cloud Native Associate**, The Linux Foundation
+- **B.Tech., Electronic Instrumentation and Control System**, Rajasthan Technical University, Kota
 - **Embedded Systems & Design Training**, CDAC Knowledge Park, Bangalore
 
 ---
 
-### Connect With Me
+### Currently Exploring
 
-- **Website:** [releaseopswithanish.in](https://releaseopswithanish.in/)
-- **LinkedIn:** [Anish Choudhary](https://www.linkedin.com/in/rj18-anish-choudhary/)
-- **GitHub:** [BangarwaAnish](https://github.com/BangarwaAnish)
+- Yocto build systems and Embedded Linux development
+- Linux internals and system programming
+- CI/CD architecture and build optimisation
+- Software supply-chain security
+- Kubernetes, AWS and cloud infrastructure
+- Automation, scripting and distributed systems
 
 ---
 
-*Interested in building reliable systems, improving engineering workflows and learning what's happening behind the code.*
+### Let's Collaborate
+
+I'm happy to talk about:
+
+- Yocto and BitBake build problems, especially reproducibility and build times.
+- CI/CD pipeline design, Jenkins shared libraries and release governance.
+- Adding security gates to a pipeline without stalling delivery.
+- Contributions to the labs above once they're public. Issues and PRs are welcome.
+
+The easiest way to reach me is [LinkedIn](https://www.linkedin.com/in/rj18-anish-choudhary/), or open an issue on one of my repositories.
