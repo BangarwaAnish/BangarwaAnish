@@ -116,3 +116,7 @@ I'm happy to talk about:
 - Contributions to the labs above once they're public. Issues and PRs are welcome.
 
 The easiest way to reach me is [LinkedIn](https://www.linkedin.com/in/rj18-anish-choudhary/), or open an issue on one of my repositories.
+
+---
+
+**Thanks for visiting!** If you found something useful here, consider [supporting my work with a coffee ☕](https://www.buymeacoffee.com/rj_anish_choudhary).
